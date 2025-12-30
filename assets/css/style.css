@@ -1,0 +1,139 @@
+:root{
+    --primary-color:#0c373d;
+    --secondary-color:#198754;
+    --light-color:#f3f7fa;
+    --warning-color:#fcc96f;
+    --hover-warning-color:#e9ab40;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: "poppins" helvetica;
+    font-size: 13px;
+    font-weight:500;
+    line-height:20px;
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: var(--primary-color) !important;
+    box-shadow: 0px 0px 15px 1px #000;
+}
+.navbar a{
+    color: var(--light-color);
+    padding: 20px 0px 20px 0px;
+    font-size: 13px;
+    font-size: nowrap;
+    transition: 0.4s;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus , .navbar a:focus{
+    color:var(--warning-color) !important;
+}
+.dropdown-menu{
+    background-color:var(--primary-color);
+}
+.dropdown-item{
+    padding:10px 10px 10px 10px !important;
+
+}
+#hero{
+    background-image : url(../images/image-bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero .hero-content{
+    height:100vh;
+    flex-direction: column;
+}
+.hero-content h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10rem;
+    color: var(--light-color);
+}
+
+.hero-content p{
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: var(--light-color);
+    line-height: 1.3;
+}
+.hero-content .list-social li i{
+    float: left;
+    margin-right:20px;
+}
+.hero-content .list-social li i{
+    color:var(--light-color);
+    font-size: 18px;
+}
+.text-justify{
+    text-align: justify;
+}
+/* our service css*/
+
+
+.card{
+    background-color: var(--warning-color);
+}
+.about-section{
+    margin-top: 1rem;
+}
+.description{
+    line-height: 1.8;
+}
+.readmore-button{
+    background-color:  var(--warning-color);
+}
+.readmore-button:hover{
+    background-color: var(--hover-warning-color);
+    color: var(--primary-color);
+}
+.responsive-image{
+    height: auto;
+}
+.call-to-action{
+    background-image: url(../images/image-jg.jpg);
+    border: 2px solid white;
+    background-attachment: fixed;
+}
+#contact-us-section{
+    background-color: var(--warning-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+#portfolio-section{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+.footer-section .socialicons li i{
+    color: var(--light-color);
+    font-size: 18px;
+}
+.footer-section .socialicons li{
+    float:left;
+    margin-right: 20px;
+    /* align-items: center; */
+    /* line-height: 1.8; */
+}
+.footer-section{
+    text-align: center;
+}
+
+.image{
+    /* height: 250px; */
+    width: 100%;
+}
